@@ -1,0 +1,28 @@
+.local-ad {
+    display: flex;
+    background: linear-gradient(135deg, black, gray, black);
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px 10px 50px;
+
+}
+
+.local-ad img {
+    width: 35%;
+}
+
+.local-ad p {
+    color: white;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 500;
+
+}
+
+
+
+@media screen and (max-width: 1100px) {
+    .local-ad p {
+        font-size: 15px;
+    }
+}

@@ -1,0 +1,15 @@
+.discount-image {
+    width: 120px;
+    padding: 8px;
+    margin: 5px;
+    border-radius: 50%;
+    background-color: bisque;
+}
+
+.discount-container {
+    text-align: center;
+    padding-left: 15%;
+    padding-right: 15%;
+
+
+}

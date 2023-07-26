@@ -1,0 +1,32 @@
+.custom-navbar {
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 55px;
+    padding: auto;
+
+}
+
+.custom-navbar div {
+    padding-left: 15px;
+}
+
+.navbar-item img {
+    width: 50px;
+    display: block;
+}
+
+.navbar-item input {
+    width: 100%;
+}
+
+.serch-navbar {
+    width: 70%;
+}
+
+.serch-navbar input {
+    text-align: center;
+}
