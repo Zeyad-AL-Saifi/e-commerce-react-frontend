@@ -5,7 +5,7 @@ const LocalAd = () => {
   return (
     <div className="local-ad container">
       <img src={laptops} alt="" />
-      <p>Discount up to 30% for any laptop </p>
+      <p>Categorise up to 30% for any laptop </p>
     </div>
   );
 };

@@ -1,4 +1,4 @@
-.discount-image {
+.Categorise-image {
     width: 120px;
     padding: 8px;
     margin: 5px;
@@ -6,10 +6,15 @@
     background-color: bisque;
 }
 
-.discount-container {
+.title {
+    font-size: 2rem;
+    margin: 2px;
+    padding: 12px;
+    text-align: start;
+}
+
+.all-categorise {
     text-align: center;
     padding-left: 15%;
     padding-right: 15%;
-
-
 }

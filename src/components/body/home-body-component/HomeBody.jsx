@@ -1,15 +1,15 @@
 import React from "react";
 import Slider from "./slider-image/Slider";
-import Discount from "./discount/Discount";
 import BestSeller from "./best-seller/BestSeller";
 import LocalAd from "./LocalAd/LocalAd";
 import LatestClothes from "./latest-clothes/LatestClothes";
 import Brand from "./Brand/Brand";
+import Categorise from "./Categorise/Categorise";
 const HomeBody = () => {
   return (
     <div>
       <Slider />
-      <Discount />
+      <Categorise />
       <BestSeller />
       <LocalAd />
       <LatestClothes />
