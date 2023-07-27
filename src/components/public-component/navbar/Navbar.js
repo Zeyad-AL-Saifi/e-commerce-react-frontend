@@ -18,7 +18,9 @@ const Navbar = () => {
                 <div className='navbar-item serch-navbar'>
                     <input className='form-control' type='text' placeholder=' Search...' />
                 </div>
-                <div className='navbar-item '><FaUserAlt /> Login</div>
+                <Link to='/LoginPage' style={ { textDecoration: 'none', color: 'white' } }>
+                    <div className='navbar-item '><FaUserAlt /> Login</div>
+                </Link>
                 <div className='navbar-item'><FaShoppingCart /> Cash</div>
             </div>
 

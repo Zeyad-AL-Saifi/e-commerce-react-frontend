@@ -4,6 +4,8 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import './App.css'
 import CategorisePage from "./pages/subHomePage/CategorisePage";
 import ProductPage from "./pages/subHomePage/ProductPage";
+import LoginPage from "./pages/authPages/LoginPage";
+import SignupPage from "./pages/authPages/SignupPage";
 
 const App = () => {
   return (
@@ -15,6 +17,8 @@ const App = () => {
           <Route path='/' element={ <Home /> } />
           <Route path='/CategorisePage' element={ <CategorisePage /> } />
           <Route path='/ProductPage' element={ <ProductPage /> } />
+          <Route path='/LoginPage' element={ <LoginPage /> } />
+          <Route path='/SignupPage' element={ <SignupPage /> } />
         </Routes>
 
 
