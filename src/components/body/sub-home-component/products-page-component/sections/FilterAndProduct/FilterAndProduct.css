@@ -1,0 +1,11 @@
+.best-seller-card {
+    min-width: 150px;
+
+}
+
+.product-side {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+
+}

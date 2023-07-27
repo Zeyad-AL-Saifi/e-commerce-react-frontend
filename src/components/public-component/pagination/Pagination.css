@@ -1,0 +1,9 @@
+.pagination-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagination-section button {
+    margin: 5px;
+}
