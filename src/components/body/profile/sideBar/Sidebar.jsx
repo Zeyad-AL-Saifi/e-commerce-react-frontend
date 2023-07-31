@@ -12,27 +12,36 @@ const Sidebar = () => {
     <div>
       <div className="side-bar">
         <div className="side-bar-items">
-          <Link style={{ textDecoration: "none" }}>
+          <Link to={"/Profile/ProfileInfo"} style={{ textDecoration: "none" }}>
             <div className="item">
               <MdOutlineVerifiedUser />
               Profile Information
             </div>
           </Link>
           <hr />
-          <Link style={{ textDecoration: "none" }}>
+          <Link
+            to={"/Profile/ProfileManageOrder"}
+            style={{ textDecoration: "none" }}
+          >
             <div className="item">
               <MdShop />
               Order Manage
             </div>
           </Link>
           <hr />
-          <Link style={{ textDecoration: "none" }}>
+          <Link
+            to={"/Profile/ProfileFavorite"}
+            style={{ textDecoration: "none" }}
+          >
             <div className="item">
               <MdOutlineFavorite /> Favorite
             </div>
           </Link>
           <hr />
-          <Link style={{ textDecoration: "none" }}>
+          <Link
+            to={"/Profile/ProfileAddress"}
+            style={{ textDecoration: "none" }}
+          >
             <div className="item">
               <MdLocationCity />
               Addresses

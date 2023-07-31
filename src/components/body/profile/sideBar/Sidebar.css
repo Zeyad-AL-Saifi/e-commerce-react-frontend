@@ -15,12 +15,13 @@
     height: 50px;
     display: flex;
     align-items: center;
-    justify-content: center;
-
+    justify-content: flex-start;
+    padding-left: 20px;
 }
 
 .item * {
     margin: 5px;
+
 }
 
 

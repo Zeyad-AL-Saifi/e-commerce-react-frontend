@@ -11,6 +11,7 @@ import ProfileInfoPage from "./pages/profile/ProfileInfoPage";
 import ProfileManageOrderPage from "./pages/profile/ProfileManageOrderPage";
 import ProfileAddressPage from "./pages/profile/ProfileAddressPage";
 import ProfileFavoritePage from "./pages/profile/ProfileFavoritePage";
+import DetailsProductPage from "./pages/detailsProduct/DetailsProductPage";
 
 const App = () => {
   return (
@@ -24,12 +25,13 @@ const App = () => {
           <Route path='/ProductPage' element={ <ProductPage /> } />
           <Route path='/LoginPage' element={ <LoginPage /> } />
           <Route path='/SignupPage' element={ <SignupPage /> } />
+          <Route path='/DetailsProduct' element={ <DetailsProductPage /> } />
           <Route path='Profile' element={ <ProfilePage /> }>
             <Route index element={ <ProfileInfoPage /> } />
-            <Route path='/ProfileManageOrder' element={ <ProfileManageOrderPage /> } />
-            <Route path='/ProfileAddress' element={ <ProfileAddressPage /> } />
-            <Route path='/ProfileFavorite' element={ <ProfileFavoritePage /> } />
-
+            <Route path='/Profile/ProfileInfo' element={ <ProfileInfoPage /> } />
+            <Route path='/Profile/ProfileManageOrder' element={ <ProfileManageOrderPage /> } />
+            <Route path='/Profile/ProfileAddress' element={ <ProfileAddressPage /> } />
+            <Route path='/Profile/ProfileFavorite' element={ <ProfileFavoritePage /> } />
           </Route>
         </Routes>
 

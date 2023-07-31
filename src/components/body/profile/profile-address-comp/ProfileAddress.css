@@ -1,0 +1,39 @@
+.btn-address {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.address-form {
+    padding: 10px;
+    width: 70%;
+    position: relative;
+
+
+}
+
+.address-form * {
+    margin: 8px;
+
+
+}
+
+.address-form button {
+    position: absolute;
+    right: 0;
+
+
+}
+
+.address-item {
+    background-color: bisque;
+    padding: 15px;
+}
+
+.address-item * {
+    padding-bottom: 10px;
+}
+
+.modif .delete {
+    font-size: 2rem;
+}
