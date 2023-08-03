@@ -1,7 +1,12 @@
 import React from "react";
+import ProfileManageOrders from "../../components/body/profile/profile-manage-orders-comp/ProfileManageOrders";
 
 const ProfileManageOrderPage = () => {
-  return <div></div>;
+  return (
+    <>
+      <ProfileManageOrders />
+    </>
+  );
 };
 
 export default ProfileManageOrderPage;

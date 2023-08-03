@@ -12,6 +12,7 @@ import ProfileManageOrderPage from "./pages/profile/ProfileManageOrderPage";
 import ProfileAddressPage from "./pages/profile/ProfileAddressPage";
 import ProfileFavoritePage from "./pages/profile/ProfileFavoritePage";
 import DetailsProductPage from "./pages/detailsProduct/DetailsProductPage";
+import ShoppingCartPage from "./pages/shopping-cart/ShoppingCartPage";
 
 const App = () => {
   return (
@@ -26,6 +27,7 @@ const App = () => {
           <Route path='/LoginPage' element={ <LoginPage /> } />
           <Route path='/SignupPage' element={ <SignupPage /> } />
           <Route path='/DetailsProduct' element={ <DetailsProductPage /> } />
+          <Route path='/ShoppingCartPage' element={ <ShoppingCartPage /> } />
           <Route path='Profile' element={ <ProfilePage /> }>
             <Route index element={ <ProfileInfoPage /> } />
             <Route path='/Profile/ProfileInfo' element={ <ProfileInfoPage /> } />

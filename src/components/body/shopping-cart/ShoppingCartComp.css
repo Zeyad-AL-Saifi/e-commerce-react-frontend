@@ -1,0 +1,47 @@
+.ShoppingItemCard {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.ShoppingItemCard img {
+    width: 150px;
+}
+
+.itemImage-InfoItem {
+    display: flex;
+    align-content: space-around;
+}
+
+.row-Quantity {
+    display: inline-flex;
+    margin: 0;
+    padding: 0;
+
+
+}
+
+.row-Quantity * {
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 5px;
+
+
+}
+
+.row-Quantity input {
+    width: 50px;
+    text-align: center;
+}
+
+.deleteItem-totle-price {
+    align-content: space-between;
+}
+
+.discound-code {
+    background-color: white;
+    max-height: 200px;
+    padding: 10px;
+}

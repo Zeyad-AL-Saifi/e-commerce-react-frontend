@@ -29,7 +29,8 @@ const Navbar = () => {
                         <Link >Logout</Link>
                     </div>
                 </div>
-                <div className='navbar-item'><FaShoppingCart /> Cash</div>
+                <Link to={ '/ShoppingCartPage' } style={ { textDecoration: 'none', color: 'white' } }>
+                    <div className='navbar-item'><FaShoppingCart />Cash</div></Link>
             </div>
 
         </>
