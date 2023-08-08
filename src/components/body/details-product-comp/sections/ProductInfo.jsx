@@ -1,5 +1,6 @@
 import React from "react";
 import img from "../../../../images/item.png";
+import ColorCircle from "../../../public-component/color-circle/ColorCircle";
 
 const ProductInfo = () => {
   return (
@@ -13,20 +14,7 @@ const ProductInfo = () => {
         <p className="d-flex">
           Brand : <h5>HP</h5>
         </p>
-        <ul className="list-colors">
-          <li className="color-selected">
-            <div className="color"></div>
-          </li>
-          <li className="color-selected">
-            <div className="color"></div>
-          </li>
-          <li className="color-selected">
-            <div className="color"></div>
-          </li>
-          <li className="color-selected">
-            <div className="color"></div>
-          </li>
-        </ul>
+        <ColorCircle />
         <p>Quantity: 12 pieces</p>
         <p>Description:</p>
         <h5>

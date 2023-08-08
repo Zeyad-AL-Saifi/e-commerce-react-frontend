@@ -6,6 +6,7 @@ import { Link } from 'react-router-dom';
 
 const Navbar = () => {
 
+    const admin = true;
 
     return (
         <>
@@ -25,13 +26,13 @@ const Navbar = () => {
                 <div class="dropdown navbar-item dropbtn">
                     <FaUserAlt />User
                     <div class="dropdown-content">
-                        <Link to="Profile">User Profile</Link>
+                        <Link to={ admin ? "Admin" : "Profile" } >User Profile</Link>
                         <Link >Logout</Link>
                     </div>
                 </div>
                 <Link to={ '/ShoppingCartPage' } style={ { textDecoration: 'none', color: 'white' } }>
                     <div className='navbar-item'><FaShoppingCart />Cash</div></Link>
-            </div>
+            </div >
 
         </>
     );
